@@ -1,15 +1,13 @@
+
 const mysql = require("mysql");
 const inquirer = require("inquirer");
 const consTable = require("console.table");
 
 
-const express = require('express');
+const express = require("express");
 const PORT = process.env.PORT || 9001;
 const app = express();
 
-// Express middleware
-// app.use(express.urlencoded({ extended: false }));
-// app.use(express.json());
 
 const db = mysql.createConnection({
     host: "localhost",
@@ -18,7 +16,7 @@ const db = mysql.createConnection({
     // placeholder username and password
     user: 'root',
     password: '',
-    database: "employeedb"
+    database: "emp"
 })
 
 // connect to mysql
@@ -31,10 +29,14 @@ db.connect((err) => {
 
 // create new db
 app.get('/newdb', (req, res) => {
-    let sql = 'CREATE DATABASE employeedb';
+    let sql = `CREATE DATABASE emp`;
         res.send('database created');
     });
 
+app.get('/employeetable', (req, res) => {
+    let sql = `CREATE TABLE employee(id int AUTO_INCREMENT PRIMARY KEY, name VARCHAR(40), position VARCHAR(40),`;
+    res.send('employee table created');
+})
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
