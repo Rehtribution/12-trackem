@@ -4,5 +4,26 @@
     "express": "^4.17.2",
     "inquirer": "^8.2.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "name": "12-trackem",
+  "description": "<h1 align=\"center\">Trackem</h1>",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rehtribution/12-trackem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rehtribution/12-trackem/issues"
+  },
+  "homepage": "https://github.com/Rehtribution/12-trackem#readme"
 }
