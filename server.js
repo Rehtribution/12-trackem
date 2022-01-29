@@ -5,13 +5,13 @@ const consTable = require("console.table");
 
 
 const express = require("express");
-const PORT = process.env.PORT || 9001;
+const PORT = process.env.PORT || 3306;
 const app = express();
 
 
 const db = mysql.createConnection({
     host: "localhost",
-    port: 9001,
+    port: 3306,
     
     // placeholder username and password
     user: 'root',
