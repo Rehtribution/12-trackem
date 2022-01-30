@@ -3,17 +3,16 @@
     "console.table": "^0.10.0",
     "express": "^4.17.2",
     "inquirer": "^8.2.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
   },
   "name": "12-trackem",
   "description": "<h1 align=\"center\">Trackem</h1>",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-
   },
   "repository": {
     "type": "git",
