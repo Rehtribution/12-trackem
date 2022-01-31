@@ -204,34 +204,34 @@ function addEmp() {
 
 // UPDATE NOT FUNCTIONAL
 function updateEmp() {
-    const update =
-        `UPDATE employee 
-    SET * = ? 
-    WHERE * = ?`;
+    db.query(`UPDATE employee 
+    SET role_id = ? 
+    WHERE role_id = ?`, (err, res) => {
+        if (err) throw err;
+        console.log("updated");
+    });
 
-    db.query(`SELECT * FROM employee`);
-
-    inquirer.prompt({
-        type: "list",
-        name: "change",
-        message: "What would you like to update?",
-        choices: [
-            "Update First Name",
-            "Update Last Name",
-            "Update Role",
-            "Update Manager",
-            "End"
-        ],
-    })
-        .then(function (selection) {
-            console.log("You chose to" + selection.change);
-            switch (selection.change) {
-                case "tbd":
-                    tbd();
-                    break;
-            }
+    // inquirer.prompt({
+    //     type: "list",
+    //     name: "change",
+    //     message: "What would you like to update?",
+    //     choices: [
+    //         "Update First Name",
+    //         "Update Last Name",
+    //         "Update Role",
+    //         "Update Manager",
+    //         "End"
+    //     ],
+    // })
+    //     .then(function (selection) {
+    //         console.log("You chose to" + selection.change);
+    //         switch (selection.change) {
+    //             case "tbd":
+    //                 tbd();
+    //                 break;
+    //         }
             viewEmp();
-        });
+        // });
 }
 
 // DELETE
