@@ -41,16 +41,16 @@ This is the twelfth Challenge homework assignment and will meet the acceptance c
 
 ## Screenshot/Media
 <h3 align="center">Link to Walkthrough</h3>
-<h3 align="center">VIDEO LINK HERE</h3>
+<h3 align="center">https://watch.screencastify.com/v/LXv0m4TbDefVlNCBp8Hf</h3>
 
 
 ## Deployed Link
--
+https://rehtribution.github.io/12-trackem/
 
 ## Usage
 1. In the terminal run  ```node server.js```
-2. 
-3.
+2. Select from the menu using the arrow keys
+3. Follow the prompts
 
 
 ## Built With
@@ -95,4 +95,4 @@ npm i console.table --save
 
 ## Contributions
 
-- Help from tutor Anthony
+- Help from Katherine, Madison, Reid
