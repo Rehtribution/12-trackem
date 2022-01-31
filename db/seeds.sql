@@ -11,7 +11,7 @@ VALUES
     ('Sales Lead', 20000, 3),
     ('Operations Manager', 60000, 2);
 
-INSERT INTO employee (first_name, last_name, position_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
     ('Michael', 'Scott', 2, 1),
     ('Jim', 'Halpert', 3, 2),
