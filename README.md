@@ -4,22 +4,23 @@
 
   [Description](#Project-Description)
   
-  [Installation-Requirements](##Installation-Requirements)
+  [Installation-Requirements](#Installation-Requirements)
   
-  [Installation](##Installation)
+  [Installation](#Installation)
   
-  [Usage](##Usage)
+  [Usage](#Usage)
   
-  [Author](##Author) 
+  [Author](#Author) 
 
-  [Contributions](##Contributions)
+  [Contributions](#Contributions)
   
 
 <h2 align="center">Project-Description</h2>
 Trackem is an applicaiton for business owners to be able to view and manage the departments, roles, and employees in their company.
 
-This is the twelfth Challenge homework assignment and will meet the acceptance criteria listed below:
+<h2 align="center">User Story</h2>
 
+```
 - GIVEN a command-line application that accepts user input
 - WHEN I start the application
 - THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
@@ -37,15 +38,17 @@ This is the twelfth Challenge homework assignment and will meet the acceptance c
 - THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 - WHEN I choose to update an employee role
 - THEN I am prompted to select an employee to update and their new role and this information is updated in the database
-
+```
 
 ## Screenshot/Media
-<h3 align="center">Link to Walkthrough</h3>
-<h3 align="center">https://watch.screencastify.com/v/LXv0m4TbDefVlNCBp8Hf</h3>
+
+[![Video Walkthrough - CLICK HERE](https://img.shields.io/badge/Video_Walkthrough-CLICK_HERE-lightblue?style=for-the-badge)](https://watch.screencastify.com/v/LXv0m4TbDefVlNCBp8Hf)
 
 
 ## Deployed Link
-https://rehtribution.github.io/12-trackem/
+
+[![GitHub-Link - ClickHere](https://img.shields.io/badge/GitHub--Link-ClickHere-blue?style=for-the-badge)](https://rehtribution.github.io/12-trackem/)
+
 
 ## Usage
 1. In the terminal run  ```node server.js```
@@ -91,7 +94,7 @@ npm i console.table --save
 
 ## Author
 
-[![GitHub Portfolio -> - Rehtribution](https://img.shields.io/badge/GitHub_Portfolio_-->-Rehtribution-1f425f?style=for-the-badge)](https://github.com/Rehtribution)
+[![GitHub Portfolio -> - Rehtribution](https://img.shields.io/badge/GitHub_Portfolio_-->-Rehtribution-darkred?style=for-the-badge)](https://github.com/Rehtribution)
 
 ## Contributions
 
